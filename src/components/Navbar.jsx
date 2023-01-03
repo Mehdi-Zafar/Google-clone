@@ -50,7 +50,7 @@ const Navbar = ({dark,setDark,searchTerm,setSearchTerm,setWebResult,setImageResu
         <div className={dark ? "flex justify-between items-center w-full py-4 bg-slate-700 text-rose-50":"flex justify-between items-center w-full py-4 bg-rose-100 text-slate-800"}>
             <div className="flex justify-start items-center">
                 <div className="flex items-center ml-4">
-                    <h1 className="text-2xl sm:text-3xl">Google</h1>
+                    <h1 className="text-2xl font-medium sm:text-3xl"><span className="text-blue-500">G</span><span className="text-red-500">o</span><span className="text-yellow-400">o</span><span className="text-blue-500">g</span><span className="text-green-500">l</span><span className="text-red-500">e</span></h1>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                     </svg>
